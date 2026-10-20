@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Visit · Snoopy's · Laredo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560;9..144,700&family=Outfit:wght@420;560;650&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="logo" href="index.html">
+        <strong>Snoopy's</strong>
+        <span data-i18n="logo.sub">Grooming & Boarding</span>
+      </a>
+      <nav class="nav">
+        <a href="index.html" data-i18n="nav.home">Home</a>
+        <a href="grooming.html" data-i18n="nav.grooming">Grooming</a>
+        <a href="boarding.html" data-i18n="nav.boarding">Boarding</a>
+        <a href="contact.html" aria-current="page" data-i18n="nav.visit">Visit</a>
+      </nav>
+      <div class="header-actions">
+        <button class="menu-btn" type="button" data-menu>Menu</button>
+        <button class="lang" type="button" data-lang-toggle>ES</button>
+        <a class="call" href="tel:+19567226006"><span data-i18n="call">Call</span> <span class="long">(956) 722-6006</span></a>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <header class="page-hero">
+      <p class="kicker" data-i18n="visit.kicker">Rosario Street</p>
+      <h1 data-i18n="visit.title">Come to the shop. Call before you guess.</h1>
+      <p data-i18n="visit.lede">Yellow building, kennel in the yard, phone painted on the wall. That's the place.</p>
+    </header>
+
+    <section class="section hours-grid">
+      <div class="panel">
+        <p data-i18n="hours.addr">2602 Rosario St, Laredo, TX 78043</p>
+        <p style="margin-top:10px"><a href="tel:+19567226006">(956) 722-6006</a></p>
+        <ul class="hours">
+          <li><span data-i18n="hours.days">Monday–Saturday</span><strong data-i18n="hours.time">10am – 5pm</strong></li>
+          <li><span data-i18n="hours.sun">Sunday</span><strong data-i18n="hours.closed">Closed</strong></li>
+        </ul>
+        <p class="map-link"><a class="btn btn-primary" href="https://www.google.com/maps/search/?api=1&query=2602+Rosario+St+Laredo+TX+78043" data-i18n="hours.map">Open in Maps</a></p>
+      </div>
+      <iframe class="map-frame" title="Map of 2602 Rosario St, Laredo" src="https://maps.google.com/maps?q=2602%20Rosario%20St%20Laredo%20TX%2078043&z=16&output=embed"></iframe>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div>
+        <strong>Snoopy's</strong>
+        <p class="preview-mark" data-i18n="footer.preview">Layka preview · not the live shop site</p>
+      </div>
+      <a href="tel:+19567226006">(956) 722-6006</a>
+    </div>
+  </footer>
+  <script src="site.js"></script>
+</body>
+</html>
